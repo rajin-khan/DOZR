@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/dozr_logo.png" width="300"/>
+  <img src="./documentation/dozrbanner.png"/>
 </p>
 
 <h1 align="center">🚦 DOZR 🚦</h1>
@@ -9,9 +9,8 @@
 #### Stay Sharp, Drive Smart!
 
 
-
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-green?style=for-the-badge&logo=git)
-![YOLOv5](https://img.shields.io/badge/Model-YOLOv5-yellow?style=for-the-badge&logo=pytorch)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-lemon?style=for-the-badge&logo=git)
+![YOLOv5](https://img.shields.io/badge/Model-YOLOv5-pink?style=for-the-badge&logo=pytorch)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge&logo=linux)
 
 #### Detect driver drowsiness in real-time and stay safe on the road!  
