@@ -26,7 +26,7 @@
 
 ---
 
-### **Key Features at a Glance (Potential)**
+### **Key Features at a Glance**
 | Feature                     | Description                                                       |
 |-----------------------------|-------------------------------------------------------------------|
 | 🕒 **Real-time Detection**  | Uses YOLOv5 to detect drowsiness via webcam.                       |
@@ -37,7 +37,7 @@
 
 ---
 
-![Drowsiness Detection Demo](./assets/detection_example.gif)
+I was supposed to include a demo video here, but I'm a little embarrassed about how I look when I'm pretending to be drowsy. You can clone and run this yourself!😭
 
 ---
 
@@ -70,6 +70,7 @@ git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 ```
+<div align="center">
 
 ### **Download Pre-trained Weights**
 ```bash
@@ -77,8 +78,6 @@ wget https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt
 ```
 
 ---
-
-<div align="center">
 
 ## 📦 **Dataset Preparation**
 
