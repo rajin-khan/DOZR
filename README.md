@@ -6,7 +6,7 @@
 
 <div align="center">
 
-#### Stay Sharp, Drive Smart!
+#### Stay Sharp, Drive Smart.
 
 
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-lemon?style=for-the-badge&logo=git)
@@ -44,17 +44,27 @@
 ## ⚙️ **Installation**
 
 ### **Clone the Repository**
+</div>
+
 ```bash
 git clone https://github.com/yourusername/dozr.git
 cd dozr
 ```
+<div align="center">
 
 ### **Install Dependencies**
+
+</div>
+
 ```bash
 pip install -r requirements.txt
 ```
+<div align="center">
 
 ### **Install YOLOv5**
+
+</div>
+
 ```bash
 git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
@@ -68,6 +78,8 @@ wget https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt
 
 ---
 
+<div align="center">
+
 ## 📦 **Dataset Preparation**
 
 ### **1. Collect Images**
@@ -76,8 +88,6 @@ wget https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt
   ```
   data/
     images/
-      awake/
-      drowsy/
     labels/
   ```
 
@@ -100,17 +110,17 @@ names: ['awake', 'drowsy']
 
 ### **Train the Model**
 ```bash
-python train.py --img 320 --batch 16 --epochs 5 --data dataset.yaml --weights yolov5s.pt
+python train.py --img 320 --batch 10 --epochs 500 --data dataset.yaml --weights yolov5s.pt
 ```
 
 ### **Training Parameters**
 | Parameter     | Description                         | Default |
 |---------------|-------------------------------------|---------|
 | `--img`       | Image size                           | 320     |
-| `--batch`     | Batch size                           | 16      |
-| `--epochs`    | Training epochs                      | 5       |
-| `--data`      | Dataset configuration file           | —       |
-| `--weights`   | Pre-trained YOLOv5 weights           | —       |
+| `--batch`     | Batch size                           | 10      |
+| `--epochs`    | Training epochs                      | 500       |
+| `--data`      | Dataset configuration file           | dataset.yaml       |
+| `--weights`   | Pre-trained YOLOv5 weights           | yolov5.pt       |
 
 ---
 
@@ -124,27 +134,35 @@ python detect.py --weights best.pt --img 320 --source 0
 - **source 0:** Webcam input.
 - **source path/to/video:** Video input.
 
-### **Alert System**
-- Integrates a sound alarm when drowsiness is detected.
-
 ---
 
 ## 📊 **Results**
 
-### **Performance Metrics**
+</div>
+
+### **Performance Metrics:**
 | Metric           | Value           |
 |------------------|-----------------|
-| **Precision**    | TBD             |
-| **Recall**       | TBD             |
-| **FPS (CPU)**    | TBD             |
+| **Precision**    | 1               |
+| **Recall**       | 0.99715         |
+
+### Training Graphs:
+
+<p align="center">
+  <img src="./documentation/results.png"/>
+</p>
+
+### F1 Curve:
+
+<p align="center">
+  <img src="./documentation/F1_curve.png"/>
+</p>
 
 ---
 
-![Detection Example](./assets/detection_example.gif)
+<div align="center">
 
----
-
-## 🔍 **Technologies to be Used**
+## 🔍 **Technologies Used**
 
 | Technology                         | Purpose                                               |
 |------------------------------------|-------------------------------------------------------|
