@@ -94,6 +94,8 @@ wget https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt
 - Use [LabelImg](https://github.com/tzutalin/labelImg) to annotate images.
 - Save labels in YOLO format inside `data/labels`.
 
+</div>
+
 ### **3. Create Dataset Configuration (`dataset.yaml`)**
 ```yaml
 path: ../data
@@ -102,8 +104,6 @@ val: images
 nc: 2
 names: ['awake', 'drowsy']
 ```
-
-</div>
 
 <div align="center">
 
