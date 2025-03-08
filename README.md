@@ -103,6 +103,10 @@ nc: 2
 names: ['awake', 'drowsy']
 ```
 
+</div>
+
+<div align="center">
+
 ---
 
 ## 🏋️ **Model Training**
